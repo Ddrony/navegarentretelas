@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fundo branco -->
+    <item>
+        <color android:color="@android:color/white" />
+    </item>
+
+    <!-- Curva azul na parte superior -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0066FF" />
+            <size android:height="200dp"/> <!-- altura da curva -->
+            <corners android:bottomLeftRadius="100dp" android:bottomRightRadius="100dp"/>
+        </shape>
+    </item>
+
+</layer-list>
